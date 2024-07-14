@@ -1,0 +1,48 @@
+qno1. Answer
+
+Example of paired tag:
+<p></P> paragraph tag.
+<a></a>Anchor tag.
+<div></div> division tag.
+<h1></h1> heading tag.
+
+Example of self closing tag:
+<img>
+<hr>
+<br>
+<input>
+<link>
+
+
+Example of unpaired tag:
+<img/>
+<hr/>
+<br/>
+<input/>
+
+qno2 Answer
+1. style:Corresponding tag: any tag (can be used with almost any HTML element)
+2. placeholder:Corresponding tag: <input>
+3. id: Corresponding tag: any tag (can be used with almost any HTML element)
+4. class: Corresponding tag: any tag (can be used with almost any HTML element)
+5. Src: Corresponding tags: <img>, <script>, <iframe>
+6. Href: Corresponding tag: <a> (anchor)
+7. Alt: Corresponding tag: <img>
+8. title: Corresponding tag: any tag (can be used with almost any HTML element)
+9. Target: Corresponding tag: <a> (anchor)
+10.Disabled: Corresponding tags: <button>, <input>
+
+qno.3 Answer
+HTML basic layout structure:
+<!DOCTYPE>
+<html lang="en">
+<head>
+<title>demo</title>
+</head>
+<body>
+</body>
+</html>
+
+qno4 Answer
+
+
