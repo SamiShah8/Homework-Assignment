@@ -43,6 +43,5 @@ HTML basic layout structure:
 </body>
 </html>
 
-qno4 Answer
 
 
