@@ -1,0 +1,4 @@
+butten element:
+button element is ususally used to make clickble button.
+by using onclick attribute we can function that button.
+It has type attribute with different values such as submit,reset and button.

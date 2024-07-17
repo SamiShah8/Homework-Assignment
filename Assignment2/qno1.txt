@@ -1,0 +1,6 @@
+sample code using these values of attribute.
+(note: <input type ="date"> )
+Date
+Color
+range
+tel

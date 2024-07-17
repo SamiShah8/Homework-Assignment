@@ -1,0 +1,50 @@
+.form-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.student-admission-container{
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    border-radius: 2rem;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.student-admission-container p{
+color:white;
+background-color: black;
+text-align: center;
+font-size: larger;
+}
+.student-details hr{
+width:38%;
+}
+.student-details {
+    display: flex
+    ;}
+    .shift {
+        display: flex;
+        justify-content: space-between;
+    }
+    .office-purpose{
+        display: flex;
+        justify-content: space-between;
+    }
+.main-fieldset{
+    width:55%
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span {
+
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;   
+}

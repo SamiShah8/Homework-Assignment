@@ -1,0 +1,10 @@
+Explain about following attributes of <input> element
+ required: it is used to make sure that following input form is empty or fill. if input field is empty then this required attribute is function as "this field is required".
+ multiple
+ disabled
+ readonly
+ maxlength
+ size
+ autofocus
+pattern
+min and max
