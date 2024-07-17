@@ -1,10 +1,39 @@
 Explain about following attributes of <input> element
- required: it is used to make sure that following input form is empty or fill. if input field is empty then this required attribute is function as "this field is required".
- multiple
- disabled
- readonly
- maxlength
- size
- autofocus
-pattern
-min and max
+required:
+Ensures the input field is filled before submitting the form.
+If the field is empty during submission, the browser displays an error message (usually "This field is required").
+Ideal for essential information users must provide.
+multiple:
+Applies only to the select input type.
+Allows users to select multiple options from a list.
+Requires the option elements within the select to have the multiple attribute as well.
+disabled:
+Makes the input field inactive and uneditable.
+Users cannot interact with the field.
+Useful for pre-filled data, read-only information, or fields that become available under certain conditions.
+readonly:
+Makes the input field read-only.
+Users can see the value but cannot modify it.
+Often used for displaying information or data the user shouldn't change.
+maxlength:
+Sets the maximum number of characters a user can enter in the input field.
+Prevents users from exceeding a specific length.
+Particularly useful for data with a fixed format, like phone numbers or postal codes.
+size:
+Defines the width (in characters) of the input field.
+This is a visual cue, not a strict limitation on characters.
+Browsers may adjust the size based on font and layout.
+Use with caution as it might not always reflect the actual displayed width.
+autofocus:
+Sets focus on the input field automatically when the page loads.
+Useful for highlighting the first or most important field for user input.
+Can be helpful for forms where immediate user interaction is desired.
+pattern:
+Defines a regular expression that the input value must match.
+Provides advanced validation beyond simple character limits.
+Ensures users enter data in a specific format (e.g., email addresses, phone numbers).
+min and max:
+Applicable to numeric input types like number, range, and some date variations.
+min specifies the minimum allowed value.
+max specifies the maximum allowed value.
+Restricts user input within a specific range.

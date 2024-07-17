@@ -1,6 +1,7 @@
 sample code using these values of attribute.
 (note: <input type ="date"> )
-Date
-Color
-range
-tel
+Date:<input type="date" id="birthday" name="birthday">
+Color:<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+range:<input type="range" id="volume" name="volume" min="1" max="10" value="5">
+tel :<input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+
