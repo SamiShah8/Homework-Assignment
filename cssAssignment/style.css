@@ -1,0 +1,145 @@
+* {
+    text-decoration: none;
+    color: rgb(214, 37, 176);
+    font-family: cursive;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7bed06c;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.person-name{
+    text-transform: uppercase;
+}
+.nav-section a {
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.nav-section h1 {
+    gap: 2rem;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 8%;
+    background-image: linear-gradient(to right, rgba(172, 61, 118, 0), rgb(125, 51, 101));
+}
+
+.welcome-main-container {
+    color: orangered
+}
+
+.main-image img {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 400ms;
+    transition-timing-function: ease-in;
+
+}
+
+.main-image img:hover {
+    transform: scaleX(1.04);
+
+}
+
+.form-for-subscribe {
+    display: flex;
+    gap: 5px;
+    height: 3rem;
+    width: 9rem;
+
+}
+
+.form-for-subscribe input {
+    border-radius: 4px;
+}
+
+.form-for-subscribe button {
+    border-radius: 4px;
+    background-color: rgb(249, 249, 201);
+}
+.heading-card-name{
+    text-align: center;
+    font-size: 50;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 8%;
+}
+
+.feature-items {
+
+    object-fit: cover;
+    border: 2px solid red;
+    max-width: 24%;
+    border-radius: 20px;
+
+
+
+}
+
+.feature-items img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.blog-discreption{
+    padding-left:8%;
+    padding-right: 8%;
+    display:flex;
+    justify-content: space-around;
+    gap:2rem;
+}
+.legend-topic{
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+}
+/* footer */
+
+footer {
+    background-color: #2493a4;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    
+}
+.footer-container{
+    margin-top: 3%;
+}
+.social-icons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffa500;
+    /* Change this to your desired hover color */
+}

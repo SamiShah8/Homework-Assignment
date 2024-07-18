@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            build_UI
+        </title>
+    </head>
+    <body>
+        <header class="nav-header">
+        <h1>My first web page</h1>
+        </header>
+        <navbar class="nav-list">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact us</a>
+        </navbar>
+        <p class="descrption">welcome to my first webpage created by using HTML and css. this is main content area.</p>
+        <main class="image-main">
+            <img src="./Assets/card-1.jpg" alt="my image" >
+        </main>
+        <footer class="footer">
+            <p>@ copyright this is my first website.</p>
+        </footer>
+    </body>
+    <style>
+        .nav-header{
+            background-color: green;
+            color: white;
+            padding: 2%;
+            text-align: center;
+        }
+        .nav-list{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;align-items: center;
+            flex-direction: column;
+           
+        }
+        .nav-list a{
+             text-decoration: none;
+             padding: 2%;
+             color: white;
+        }
+        .image-main img{
+            width: 100%;
+            object-fit:cover;
+            height: 30rem;
+            padding-bottom: 1rem;
+        }
+        .footer{
+            background-color: green;
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            color: white;
+        }
+        .descrption{
+            text-align: center;
+        }
+    </style>
+</html>
